@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: linear-gradient(135deg, #0e58e0, #384d70); */
+   background:linear-gradient(125deg,red,
+   blue,whitesmoke);
+}
+
+#packheader {
+    height: 10vh;
+    width: 100vw;
+
+}
+
+
+#logo {
+    height: 100%;
+    margin-left: 10px;
+
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.text {
+
+    display: flex;
+    color: rgb(244, 10, 29);
+
+
+}
+.text:hover{
+    color: rgb(4, 73, 248);
+}
+.iqon{
+    padding: 10px;
+    background-color: #d60909;
+    border-radius: 50%;
+
+}
+.iqon:hover{
+    background-color: rgb(8, 161, 161);
+}
+
+.contact {
+    font-weight: lighter;
+    font-size: smaller;
+    
+
+}
+.login{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30%;
+}
+.try{
+    background-color: #014922;
+    color: aliceblue;
+    padding: 10px;
+    
+}
+.try:hover{
+    background-color: #033a39;
+}
+
+#page1 {
+    height: 90vh;
+    /* background-color: #6e5858; */
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: #0a155b;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#strip u{
+    margin-left: 10px;
+    font-weight: ;
+}
+#content{
+height: 76%;
+width: 100%;
+background-color: green;
+
+}
+
+#heading{
+height: 16%;
+width: 100%;
+background-color: aquamarine;
+
+
+
+}
+#page2 {
+    height: 90vh;
+    background-color: #9f5b5b;
+
+}
